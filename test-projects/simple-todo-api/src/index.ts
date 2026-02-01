@@ -1,46 +1,55 @@
-import express from 'express';
+import express, { Request, Response } from 'express';
+import {
+  Todo,
+  CreateTodoRequest,
+  UpdateTodoRequest,
+  TodoByIdRequest,
+  TodoResponse,
+  TodoListResponse,
+  DeleteResponse,
+  sendError,
+  sendSuccess
+} from './types';
 
 const app = express();
 const PORT = 3000;
 
 app.use(express.json());
 
-// Define Todo interface
-interface Todo {
-  id: number;
-  title: string;
-  completed: boolean;
-}
-
 // In-memory storage with proper typing
 let todos: Todo[] = [];
 
+// Helper function to reset todos (for testing)
+export function resetTodos(): void {
+  todos = [];
+}
+
 // Get all todos
-app.get('/todos', (req, res) => {
+app.get('/todos', (req: Request, res: TodoListResponse) => {
   res.json(todos);
 });
 
 // Get single todo
-app.get('/todos/:id', (req, res) => {
+app.get('/todos/:id', (req: TodoByIdRequest, res: TodoResponse) => {
   const id = parseInt(req.params.id);
   const todo = todos.find(t => t.id === id);
 
   if (!todo) {
-    return res.status(404).json({ error: 'Todo not found' });
+    return sendError(res, 404, 'Todo not found');
   }
 
   res.json(todo);
 });
 
 // Create todo
-app.post('/todos', (req, res) => {
+app.post('/todos', (req: CreateTodoRequest, res: TodoResponse) => {
   // Validate required fields
   if (!req.body.title || typeof req.body.title !== 'string') {
-    return res.status(400).json({ error: 'Title is required and must be a string' });
+    return sendError(res, 400, 'Title is required and must be a string');
   }
 
   if (req.body.title.trim().length === 0) {
-    return res.status(400).json({ error: 'Title cannot be empty' });
+    return sendError(res, 400, 'Title cannot be empty');
   }
 
   const todo: Todo = {
@@ -53,13 +62,13 @@ app.post('/todos', (req, res) => {
 });
 
 // Update todo
-app.put('/todos/:id', (req, res) => {
+app.put('/todos/:id', (req: UpdateTodoRequest, res: TodoResponse) => {
   const id = parseInt(req.params.id);
   const index = todos.findIndex(t => t.id === id);
 
   // Check if todo exists
   if (index === -1) {
-    return res.status(404).json({ error: 'Todo not found' });
+    return sendError(res, 404, 'Todo not found');
   }
 
   // Validate and build updates object
@@ -70,15 +79,15 @@ app.put('/todos/:id', (req, res) => {
     if (field in req.body) {
       if (field === 'title') {
         if (typeof req.body.title !== 'string') {
-          return res.status(400).json({ error: 'Title must be a string' });
+          return sendError(res, 400, 'Title must be a string');
         }
         if (req.body.title.trim().length === 0) {
-          return res.status(400).json({ error: 'Title cannot be empty' });
+          return sendError(res, 400, 'Title cannot be empty');
         }
         updates.title = req.body.title.trim();
       }
       if (field === 'completed' && typeof req.body.completed !== 'boolean') {
-        return res.status(400).json({ error: 'Completed must be a boolean' });
+        return sendError(res, 400, 'Completed must be a boolean');
       }
       if (field === 'completed' && typeof req.body.completed === 'boolean') {
         updates.completed = req.body.completed;
@@ -91,12 +100,18 @@ app.put('/todos/:id', (req, res) => {
 });
 
 // Delete todo
-app.delete('/todos/:id', (req, res) => {
+app.delete('/todos/:id', (req: TodoByIdRequest, res: DeleteResponse) => {
   const id = parseInt(req.params.id);
   todos = todos.filter(t => t.id !== id);
   res.status(204).send();
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+// Export app for testing
+export default app;
+
+// Only start server if not in test environment
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+  });
+}

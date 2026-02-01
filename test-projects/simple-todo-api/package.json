@@ -1,0 +1,26 @@
+{
+  "name": "simple-todo-api",
+  "version": "1.0.0",
+  "description": "Simple Todo API for testing Orchestrator Kit",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": ["todo", "api", "typescript"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@types/express": "^4.17.21"
+  }
+}

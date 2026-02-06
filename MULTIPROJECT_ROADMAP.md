@@ -1,19 +1,19 @@
 # Multi-Project Development Roadmap
 
-**Версия:** 1.20 (обновлено: OpenClaw Security 100% COMPLETE! 🎉✅🔒)
-**Дата:** 2026-02-07 15:00 UTC
+**Версия:** 1.21 (обновлено: Leonardo AI ML Training Infrastructure 🤖📊🚀)
+**Дата:** 2026-02-07 16:00 UTC
 **Цель:** Параллельное развитие всех 4 проектов до production-ready состояния
 
 ---
 
-## 📊 Текущее состояние (2026-02-07 15:00 UTC)
+## 📊 Текущее состояние (2026-02-07 16:00 UTC)
 
 | Проект | Зрелость | Статус | Приоритет | Цель | Прогресс |
 |--------|----------|--------|-----------|------|----------|
 | **OpenClaw** | **100%** ⬆️🎉✅ | **🎉 PRODUCTION COMPLETE!** | ✅ **DONE** | ✅ **100% ACHIEVED!** | **+30%** Full project infrastructure, production-ready! |
 | **Orchestrator Kit** | **100%** ⬆️🎊✅ | **🎉 PRODUCTION COMPLETE!** | ✅ **DONE** | ✅ **100% ACHIEVED!** | **+40%** 10 agents, web interface, Docker deployment |
-| **Leonardo AI** | **50%** ⬆️🤖📊 | **ML Training System Complete!** | 🟢 **Target Hit!** | ✅ **50% ACHIEVED!** | **+40%** ML training, Docker, tests, docs |
-| **info7** | 100% | Production Ready | 🟢 Поддержка | → Maintenance | v1.19.0 |
+| **Leonardo AI** | **55%** ⬆️🤖📊🚀 | **ML Training Infrastructure Ready!** | 🟢 **On Track!** | → **60% (Q2 2026)** | **+45%** ML training, Docker, dataset generator, training pipeline |
+| **info7** | 100% | Production Ready | 🟢 Поддержка | → Maintenance | v1.21.0 |
 
 ---
 
@@ -1554,7 +1554,54 @@ app.delete('/api/agents/:id',
 
 ---
 
-# Track 3: Leonardo AI (5% → 45%) ⬆️ +40% 🚀 **Production-Ready Deployment!** 🐳
+# Track 3: Leonardo AI (5% → 55%) ⬆️ +50% 🚀 **ML Training Infrastructure Ready!** 🤖📊
+
+**✅ ПРОГРЕСС (2026-02-07 16:00 UTC):** 🤖 **ML Training Infrastructure Complete!**
+- ✅ **Dataset Generator** (~400 строк Python)
+  - Synthetic dataset generation for strategy classification
+  - 1,100+ labeled examples (thinking-first, action-first, iterative)
+  - Template-based generation (30+ templates per strategy)
+  - Rich metadata: complexity, duration, urgency, research requirements
+  - CSV and JSON export formats
+  - Dataset statistics and analytics
+
+- ✅ **Model Training Script** (~450 строк Python)
+  - Bidirectional LSTM architecture for text classification
+  - TensorFlow/Keras implementation
+  - Architecture: Embedding (128-dim) → BiLSTM (64) → BiLSTM (32) → Dense (64) → Dense (32) → Output (3 classes)
+  - Advanced features: Early stopping, learning rate reduction, model checkpointing
+  - Training visualization (accuracy, loss curves, confusion matrix)
+  - Multiple export formats (H5, SavedModel for production)
+  - Target accuracy: 92%+
+
+- ✅ **Evaluation Pipeline** (~350 строк Python)
+  - Model loading and inference
+  - Batch prediction support
+  - Interactive prediction mode
+  - Confidence scores and probability distributions
+  - Explanation generation for predictions
+  - JSON export for predictions
+
+- ✅ **Supporting Infrastructure** (~700 строк)
+  - requirements.txt: Complete Python dependencies (TensorFlow, PyTorch, scikit-learn, pandas, matplotlib)
+  - README.md (~500 строк): Comprehensive training documentation
+  - setup.sh: Automated setup and training pipeline
+  - Makefile: Development commands (install, dataset, train, evaluate, clean)
+
+- ✅ **Project Structure:**
+  ```
+  training/
+  ├── scripts/        # Training scripts (generate, train, evaluate)
+  ├── data/          # Generated datasets
+  ├── models/        # Trained models and configs
+  ├── notebooks/     # Jupyter notebooks
+  ├── requirements.txt
+  ├── setup.sh
+  ├── Makefile
+  └── README.md
+  ```
+
+- ✅ **Total:** ~1,900 строк production Python code for ML training
 
 **✅ ПРОГРЕСС (2026-02-07 09:00 UTC):** 🚀 **Production Deployment Complete!**
 - ✅ **Docker Configuration** - Complete containerization
@@ -1621,7 +1668,7 @@ app.delete('/api/agents/:id',
   - Shared types package (~600 строк)
   - 100+ unit tests
 
-**Total: ~7,590 строк production code + comprehensive testing + web interface + deployment configuration**
+**Total: ~9,490 строк production code (7,590 TypeScript + 1,900 Python) + comprehensive testing + web interface + deployment configuration + ML training infrastructure**
 
 ## Цель: От концепции к работающему прототипу
 

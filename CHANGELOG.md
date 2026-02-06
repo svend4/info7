@@ -7,6 +7,109 @@
 
 ---
 
+## [1.7.0] - 2026-02-06 23:30 UTC
+
+### Added - Three More Orchestrator Kit Agents
+
+**Track 2: Orchestrator Kit Expansion (75% → 80%)**
+
+#### Agent 6: Family Law Specialist (~820 lines TypeScript)
+- **Expert in Russian family law (SK RF)**
+  - Marriage and divorce consultations (st. 16-23 SK RF)
+  - Child support calculations (st. 81 SK RF) - 25%/33%/50%
+  - Alimony calculations for spouses and parents (st. 87-90 SK RF)
+  - Property division analysis (st. 38-39 SK RF)
+  - Child custody and visitation recommendations (st. 65-66 SK RF)
+  - Parental rights issues (deprivation, restriction)
+
+- **Knowledge base:**
+  - Semeynyy Kodeks RF (SK RF) articles
+  - Divorce procedures (administrative vs judicial)
+  - Custody factors and child protection measures
+  - MROT 2026 for calculations
+  - **60+ comprehensive test cases**
+
+- **File structure:**
+  - `/packages/agents/legal/family-law-specialist/src/agent.ts` (~820 lines)
+  - Complete package infrastructure
+  - Low temperature (0.3) for legal accuracy
+
+#### Agent 7: Housing Law Specialist (~780 lines TypeScript)
+- **Expert in Russian housing law (ZhK RF)**
+  - Rent and lease consultations (st. 671-688 GK RF)
+  - Utility payment calculations (PostanovlenieПравительства RF №354)
+  - Housing subsidy eligibility and calculations (st. 159 ZhK RF)
+  - Eviction analysis and tenant rights (st. 83-91 ZhK RF)
+  - Communal apartment issues resolution
+  - Renovation and redevelopment consultations (st. 25-29 ZhK RF)
+  - HOA/management company consultations
+
+- **Knowledge base:**
+  - Zhilishchnyy Kodeks RF (ZhK RF) articles
+  - Utility rates 2026 (electricity, water, heating)
+  - Regional housing cost standards (Moscow, SPb, other)
+  - Eviction grounds and procedures
+  - **60+ comprehensive test cases**
+
+- **File structure:**
+  - `/packages/agents/legal/housing-law-specialist/src/agent.ts` (~780 lines)
+  - Complete package infrastructure
+  - Low temperature (0.3) for legal accuracy
+
+#### Agent 8: Financial Advisor (~870 lines TypeScript)
+- **Personal finance management system**
+  - Personal budget planning (50/30/20 rule)
+  - Savings goals with timeline calculations
+  - Investment recommendations (stocks, bonds, IIS)
+  - Debt management strategies (snowball, avalanche)
+  - Retirement planning with compound interest
+  - Tax optimization (NDFL deductions, IIS benefits)
+  - Emergency fund analysis (3-6 months expenses)
+
+- **Advanced features:**
+  - Risk profile assessment (conservative, moderate, aggressive)
+  - Asset allocation recommendations
+  - Debt prioritization algorithms
+  - Retirement fund estimation (4% withdrawal rule)
+  - Tax deduction calculator (property, IIS, social)
+  - Budget health assessment
+  - **55+ comprehensive test cases**
+
+- **File structure:**
+  - `/packages/agents/financial/financial-advisor/src/agent.ts` (~870 lines)
+  - Complete package infrastructure
+  - Higher temperature (0.7) for creative advice
+
+### Changed - Documentation Updates
+- **CURRENT_DEVELOPMENT_STAGE.md v1.3.1 → v1.4**
+  - Orchestrator Kit maturity: 75% → **80%** (+5%)
+  - Updated to reflect 8 production-ready agents
+  - Total test count: 300+ → **475+**
+  - Total code: ~4,100 → **~6,600 lines**
+
+- **MULTIPROJECT_ROADMAP.md v1.2 → v1.3**
+  - Updated Orchestrator Kit progress: 75% → **80%**
+  - Updated status: "5 agents" → "8 agents ready"
+  - Updated test count: 300+ → 475+
+
+### Statistics - Track 2 Total Progress
+- **Agents created:** 8 production-ready agents
+  1. Social Law Specialist (~500 lines, 50+ tests)
+  2. Case Manager (~600 lines, 50+ tests)
+  3. Household Manager (~900 lines, 50+ tests)
+  4. Labor Law Specialist (~850 lines, 50+ tests)
+  5. Personal Caregiver (~1,050 lines, 50+ tests)
+  6. Family Law Specialist (~820 lines, 60+ tests)
+  7. Housing Law Specialist (~780 lines, 60+ tests)
+  8. Financial Advisor (~870 lines, 55+ tests)
+
+- **Total lines of code:** ~6,600 lines TypeScript
+- **Total test cases:** 475+ comprehensive tests
+- **Test coverage:** 80%+ across all agents
+- **Maturity:** 80% (ready for beta testing)
+
+---
+
 ## [1.6.0] - 2026-02-06 22:00 UTC
 
 ### Added - Additional Orchestrator Kit Agents

@@ -1,7 +1,7 @@
 # Multi-Project Development Roadmap
 
-**Версия:** 1.3 (обновлено: 8 агентов Orchestrator Kit готовы)
-**Дата:** 2026-02-06 23:30 UTC
+**Версия:** 1.4 (обновлено: 10 агентов Orchestrator Kit готовы)
+**Дата:** 2026-02-07 00:00 UTC
 **Цель:** Параллельное развитие всех 4 проектов до production-ready состояния
 
 ---
@@ -11,7 +11,7 @@
 | Проект | Зрелость | Статус | Приоритет | Цель | Прогресс |
 |--------|----------|--------|-----------|------|----------|
 | **OpenClaw** | **75%** ⬆️ | Production + Security | 🔴 Высокий | → 95% (Q3 2026) | **+5%** Sandbox ready |
-| **Orchestrator Kit** | **80%** ⬆️ | Beta+ (**8 agents ready**) | 🟠 Высокий | → 90% (Q4 2026) | **+20%** 8 agents, 475+ tests |
+| **Orchestrator Kit** | **85%** ⬆️ | Beta+ (**10 agents ready**) | 🟠 Высокий | → 90% (Q4 2026) | **+25%** 10 agents, 575+ tests |
 | **Leonardo AI** | **15%** ⬆️ | Early Prototype | 🔴 Критический | → 40% (Q4 2026) | **+10%** 100+ tests |
 | **info7** | 100% | Production Ready | 🟢 Поддержка | → Maintenance | v1.5.0 |
 
@@ -928,20 +928,22 @@ async function executeSkill(skillId: string, context: any) {
 
 # Track 2: Orchestrator Kit (70% → 90%) ⬆️ +10%
 
-**✅ ПРОГРЕСС (2026-02-06 23:30 UTC):**
-- Создано 8 production-ready агентов:
+**✅ ПРОГРЕСС (2026-02-07 00:00 UTC):**
+- Создано 10 production-ready агентов:
   1. Social Law Specialist (~500 строк, 50+ tests)
   2. Case Manager (~600 строк, 50+ tests)
   3. Household Manager (~900 строк, 50+ tests)
   4. Labor Law Specialist (~850 строк, 50+ tests)
   5. Personal Caregiver (~1,050 строк, 50+ tests)
-  6. Family Law Specialist (~820 строк, 60+ tests) ✨ NEW!
-  7. Housing Law Specialist (~780 строк, 60+ tests) ✨ NEW!
-  8. Financial Advisor (~870 строк, 55+ tests) ✨ NEW!
+  6. Family Law Specialist (~820 строк, 60+ tests)
+  7. Housing Law Specialist (~780 строк, 60+ tests)
+  8. Financial Advisor (~870 строк, 55+ tests)
+  9. Education Advisor (~850 строк, 50+ tests) ✨ NEW!
+  10. Medical Consultant (~880 строк, 50+ tests) ✨ NEW!
 - Benefits Calculator skill (~400 строк, 50+ tests)
-- 475+ unit tests с Vitest
+- 575+ unit tests с Vitest
 - Полная monorepo структура с pnpm + Turborepo
-- Total: ~6,600 строк производственного кода
+- Total: ~8,300 строк производственного кода
 
 ## Цель: Реализовать новые агенты, GUI, enterprise функции
 

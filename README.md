@@ -31,6 +31,11 @@ Comprehensive research on AI agent orchestration systems with deep philosophical
 
 ### 🚀 Quick Start
 
+**[PROJECT_SUMMARY.md](PROJECT_SUMMARY.md)** - One-page overview (5 minutes read)
+- Complete project summary
+- All three systems explained
+- Roadmap, business potential, and next steps
+
 **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** - Choose a system in 30 seconds
 - Decision tree for quick selection
 - Detailed comparison table (25+ criteria)

@@ -109,23 +109,38 @@
   - Essential navigation links
   - Perfect entry point for newcomers
 
+- **IMPLEMENTATION_PLAN_DETAILED.md** - Complete technical roadmap (~8,600 words)
+  - **Phase 1: Infrastructure** - Monorepo setup, TypeScript config, CI/CD
+  - **Phase 2: First Agents** - Social Law Specialist with full code (~450 lines)
+    - Knowledge base: ФЗ-178, ФЗ-181, ФЗ-400
+    - Benefits calculator (~300 lines of calculation logic)
+    - Comprehensive tests (80%+ coverage target)
+  - **Phase 3: Leonardo AI Prototype** - Consciousness Layer, Coordinator
+    - Task Analyzer (complexity/uncertainty/urgency estimation)
+    - 3 execution strategies (Thinking-First, Action-First, Iterative)
+    - Integration with Cognitive Core & Action Core
+  - **5 Innovations:** ML Task Analysis, RL Strategy Selection, Multi-Agent Collaboration, Blockchain Ledger, Adaptive Context
+  - **3 Implementation Variants:** MVP (2-3 weeks), Standard (6-8 weeks), Full Vision (12-16 weeks)
+  - **Roadmap 2026-2030** with metrics and deliverables
+  - **2000+ lines of TypeScript/Python code examples**
+
 ### Changed
 - Updated README.ru.md with ARCHITECTURE.md and ARCHITECTURE_DIAGRAMS.md links
 - Updated README.ru.md with professional badges (License, Version, Docs, Status, Contributions)
-- Updated README.ru.md statistics to 35 files, ~213,000 words
+- Updated README.ru.md statistics to 36 files, ~222,000 words
 - Updated README.ru.md with LICENSE, CODE_OF_CONDUCT, PROJECT_SUMMARY, and PROJECT_STRUCTURE sections
 - Updated README.ru.md Quick Start with GETTING_STARTED.md, PROJECT_SUMMARY.md, and PROJECT_STRUCTURE.md links
 - Updated README.ru.md version to 1.3.0
 - Updated README.md with Architecture section and Mermaid diagrams link
 - Updated README.md with PROJECT_SUMMARY.md and PROJECT_STRUCTURE.md in Quick Start section
-- Updated README.md version to 1.3.0 and statistics (35 files, 213k words, 23 commits)
+- Updated README.md version to 1.3.0 and statistics (36 files, 222k words, 24 commits)
 - Updated ARCHITECTURE.md with reference to Mermaid diagrams
 - Updated CURRENT_DEVELOPMENT_STAGE.md to v1.1 for info7 v1.3.0
-  - Reflected all v1.3.0 additions (35 files, 213k words, 23 commits)
+  - Reflected all v1.3.0 additions (36 files, 222k words, 24 commits)
   - Updated metrics visualization (100% publication ready)
   - Enhanced milestones and next steps
   - Updated production-ready status with GETTING_STARTED.md
-- Updated PULL_REQUEST.md with final statistics (35 files, 213k words, 23 commits)
+- Updated PULL_REQUEST.md with final statistics (36 files, 222k words, 24 commits)
 
 ---
 

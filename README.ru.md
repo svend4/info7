@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/[USERNAME]/info7/releases)
-[![Documentation](https://img.shields.io/badge/docs-213k%20words-green.svg)](https://github.com/[USERNAME]/info7)
+[![Documentation](https://img.shields.io/badge/docs-222k%20words-green.svg)](https://github.com/[USERNAME]/info7)
 [![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/[USERNAME]/info7)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -15,6 +15,12 @@
 - 🎯 Пути чтения по ролям (5-30 минут)
 - ❓ Мгновенный выбор системы за 30 секунд
 - 💡 Частые вопросы и быстрые ответы
+
+**💻 [GETTING_STARTED_DEV.md](GETTING_STARTED_DEV.md)** - Руководство для разработчиков (~1,000 слов)
+- 📋 Пошаговый план реализации (3 недели до MVP)
+- 💻 Готовый код из IMPLEMENTATION_PLAN_DETAILED
+- ⚙️ Настройка инструментов и troubleshooting
+- 🚀 От нуля до работающего агента
 
 **[PROJECT_SUMMARY.md](PROJECT_SUMMARY.md)** - Обзор всего проекта на одной странице (~5,000 слов)
 - 📖 Полный обзор за 5 минут
@@ -46,13 +52,21 @@
 - 🤖 **OpenClaw** - Production (70% зрелости, ⚠️ проблемы безопасности)
 - 🎼 **Orchestrator Kit** - Beta (60% зрелости, активная разработка)
 - 🎨 **Leonardo AI** - Concept (5% зрелости, только документация)
-- 📚 **info7 v1.3.0** - Production Ready (100% зрелости, 213k слов, 35 файлов)
+- 📚 **info7 v1.3.0** - Production Ready (100% зрелости, 222k слов, 36 файлов)
 
 **[IMPLEMENTATION_ROADMAP.md](IMPLEMENTATION_ROADMAP.md)** - Практическая дорожная карта реализации (~10,000 слов)
 - 🚀 **Q1-Q2 2026:** Новые агенты + прототип Leonardo AI
 - 🎯 **Q3-Q4 2026:** ML-based Consciousness + полная интеграция
 - 🌟 **2027-2030:** Масштабирование и релиз v1.0
 - Детальные технические спецификации, примеры кода, метрики успеха
+
+**⭐ [IMPLEMENTATION_PLAN_DETAILED.md](IMPLEMENTATION_PLAN_DETAILED.md)** - Полный технический план реализации (~8,600 слов)
+- 📋 **Фаза 1 (Простое):** Инфраструктура проекта (monorepo, TypeScript, CI/CD)
+- 🤖 **Фаза 2 (Среднее):** Первые агенты с полным кодом (~450 строк агента, ~300 строк калькулятора)
+- 🧠 **Фаза 3 (Сложное):** Leonardo AI прототип (Consciousness Layer, Coordinator)
+- 💡 **5 инноваций:** ML Task Analysis, RL Strategy Selection, Multi-Agent, Blockchain, Adaptive Context
+- 🎯 **3 варианта:** MVP (2-3 недели), Standard (6-8 недель), Full Vision (12-16 недель)
+- 💻 **2000+ строк кода:** TypeScript/Python примеры готовы к использованию
 
 ---
 
@@ -273,8 +287,8 @@
 
 ## 📊 Статистика проекта
 
-- **Общий объем документации:** ~222,000 слов (~740 страниц)
-- **Количество файлов:** 36 файлов (30 markdown + 4 GitHub templates + LICENSE + .gitignore)
+- **Общий объем документации:** ~223,000 слов (~743 страницы)
+- **Количество файлов:** 37 файлов (31 markdown + 4 GitHub templates + LICENSE + .gitignore)
 - **Охват тем:**
   - Техническая архитектура ✅
   - Профессиональные домены ✅

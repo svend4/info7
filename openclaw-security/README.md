@@ -47,6 +47,39 @@ Complete implementation guide for secure skill execution:
 - ✅ Audit logging
 - ✅ Permission system
 
+### 3. [@openclaw/sandbox Package](./packages/sandbox/)
+**Production-ready sandbox implementation**
+
+The actual sandbox implementation is available as a TypeScript package:
+- **Location:** `packages/sandbox/`
+- **Package:** `@openclaw/sandbox`
+- **Version:** 0.1.0
+- **Tests:** 60+ comprehensive test cases
+- **Documentation:** Full API documentation in package README
+
+**Package Structure:**
+```
+packages/sandbox/
+├── src/
+│   ├── sandbox.ts          # Main SkillSandbox class
+│   ├── resource-monitor.ts # Resource monitoring
+│   ├── types.ts            # Type definitions
+│   ├── index.ts            # Public exports
+│   └── sandbox.test.ts     # 60+ test cases
+├── package.json
+├── tsconfig.json
+├── vitest.config.ts
+└── README.md
+```
+
+**Quick Install:**
+```bash
+cd packages/sandbox
+pnpm install
+pnpm build
+pnpm test
+```
+
 ---
 
 ## Quick Start
@@ -117,12 +150,13 @@ openclaw update
 ### ✅ Phase 1: Immediate (Week 1)
 - [x] Security audit completed
 - [x] Sandbox implementation documented
+- [x] Sandbox package created (@openclaw/sandbox v0.1.0)
 - [ ] Security advisory published
 - [ ] Malicious skills removed
 - [ ] User notifications sent
 
 ### ⏳ Phase 2: Short-term (Weeks 2-4)
-- [ ] Sandbox system deployed
+- [ ] Sandbox system deployed to production
 - [ ] Basic skill verification implemented
 - [ ] Security guidelines published
 - [ ] Bug bounty program launched

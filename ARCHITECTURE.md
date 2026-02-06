@@ -5,6 +5,8 @@
 
 Визуализация архитектур всех трех систем: OpenClaw, Orchestrator Kit и Leonardo AI.
 
+> 💡 **Для интерактивных диаграмм см.** [ARCHITECTURE_DIAGRAMS.md](ARCHITECTURE_DIAGRAMS.md) - Mermaid диаграммы с автоматическим рендерингом на GitHub
+
 ---
 
 ## 📊 Сравнение архитектур

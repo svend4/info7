@@ -67,13 +67,28 @@
   - Reporting process and confidentiality
   - Examples of constructive vs destructive interactions
 
+- **ARCHITECTURE_DIAGRAMS.md** - Mermaid interactive diagrams (~6,000 words)
+  - High-level architecture for all three systems
+  - Sequence diagrams for execution flows
+  - Pattern visualizations (Gateway, Orchestrator, Corpus Callosum)
+  - Leonardo AI strategy selection flowcharts
+  - Five operational modes visualization
+  - Comparison overview and evolution timeline
+  - Data flow diagrams for each system
+  - Implementation phases Gantt chart
+  - Component interaction diagrams
+  - Color-coded legend and documentation
+
 ### Changed
-- Updated README.ru.md with ARCHITECTURE.md link
+- Updated README.ru.md with ARCHITECTURE.md and ARCHITECTURE_DIAGRAMS.md links
 - Updated README.ru.md with professional badges (License, Version, Docs, Status, Contributions)
-- Updated README.ru.md statistics to 30 files, ~189,000 words
-- Updated README.ru.md with LICENSE section
+- Updated README.ru.md statistics to 32 files, ~199,000 words
+- Updated README.ru.md with LICENSE and CODE_OF_CONDUCT sections
 - Updated README.ru.md version to 1.3.0
-- Updated PULL_REQUEST.md with final statistics (30 files, 189k words, 17 commits)
+- Updated README.md with Architecture section and Mermaid diagrams link
+- Updated README.md version to 1.3.0 and statistics (32 files, 199k words)
+- Updated ARCHITECTURE.md with reference to Mermaid diagrams
+- Updated PULL_REQUEST.md with final statistics (32 files, 199k words, 19 commits)
 
 ---
 
@@ -250,7 +265,7 @@
 ### Planned for v1.4.0
 - [x] CODE_OF_CONDUCT.md - Community code of conduct ✅
 - [x] English translations (README.md ✅, FAQ.en.md still planned)
-- [ ] Mermaid diagrams for Leonardo AI architecture
+- [x] Mermaid diagrams for Leonardo AI architecture ✅
 - [ ] Video tutorials
 - [ ] Interactive demo
 

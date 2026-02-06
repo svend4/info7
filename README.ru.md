@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/[USERNAME]/info7/releases)
-[![Documentation](https://img.shields.io/badge/docs-193k%20words-green.svg)](https://github.com/[USERNAME]/info7)
+[![Documentation](https://img.shields.io/badge/docs-199k%20words-green.svg)](https://github.com/[USERNAME]/info7)
 [![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/[USERNAME]/info7)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -110,11 +110,17 @@
 
 Концепция идеальной системы, объединяющей когнитивные способности (Orchestrator Kit) и исполнительные возможности (OpenClaw):
 
-**[ARCHITECTURE.md](ARCHITECTURE.md)** - Визуализация всех архитектур
+**[ARCHITECTURE.md](ARCHITECTURE.md)** - Визуализация всех архитектур (ASCII)
 - 📊 Сравнение паттернов (Gateway, Orchestrator, Corpus Callosum)
 - 🎯 Три стратегии Leonardo AI (Thinking-First, Action-First, Iterative)
 - 🔄 Data Flow для комплексных задач
 - 💡 Руководство по выбору архитектуры
+
+**[ARCHITECTURE_DIAGRAMS.md](ARCHITECTURE_DIAGRAMS.md)** - Интерактивные Mermaid диаграммы
+- 🎨 Автоматический рендеринг на GitHub
+- 📈 Flowcharts, sequence diagrams, timelines
+- 🔍 Детальная визуализация всех компонентов
+- 🚀 Implementation roadmap с Gantt-диаграммами
 
 - **[LEONARDO_AI_DETAILED.md](LEONARDO_AI_DETAILED.md)** - Часть 1: Архитектура и возможности (~25,000 слов)
   - **Почему "Leonardo"** - да Винчи как прототип универсального гения
@@ -249,8 +255,8 @@
 
 ## 📊 Статистика проекта
 
-- **Общий объем документации:** ~193,000 слов
-- **Количество файлов:** 31 файлов (25 markdown + 4 GitHub templates + LICENSE + .gitignore)
+- **Общий объем документации:** ~199,000 слов
+- **Количество файлов:** 32 файла (26 markdown + 4 GitHub templates + LICENSE + .gitignore)
 - **Охват тем:**
   - Техническая архитектура ✅
   - Профессиональные домены ✅

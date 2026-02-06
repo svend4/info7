@@ -149,9 +149,9 @@
 
 ## 📊 Финальная статистика проекта
 
-- **Всего файлов:** 31 (25 markdown + 4 GitHub templates + LICENSE + .gitignore)
-- **Общий объем:** ~193,000 слов (~643 страниц)
-- **Коммитов:** 18 (включая финализацию)
+- **Всего файлов:** 32 (26 markdown + 4 GitHub templates + LICENSE + .gitignore)
+- **Общий объем:** ~199,000 слов (~663 страниц)
+- **Коммитов:** 19 (включая финализацию)
 - **Версия:** 1.3.0
 - **Лицензия:** MIT
 - **Охват тем:**
@@ -163,6 +163,7 @@
   - ✅ Бизнес-анализ и инвестиции
   - ✅ Community guidelines (FAQ, CONTRIBUTING, CODE_OF_CONDUCT)
   - ✅ Security & governance (SECURITY, LICENSE)
+  - ✅ Interactive visualizations (Mermaid diagrams, ASCII art)
   - ✅ Визуальные roadmap и архитектура
   - ✅ Английская и русская версии
 

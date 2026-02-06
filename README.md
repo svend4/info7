@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/[USERNAME]/info7/releases)
-[![Documentation](https://img.shields.io/badge/docs-193k%20words-green.svg)](https://github.com/[USERNAME]/info7)
+[![Documentation](https://img.shields.io/badge/docs-199k%20words-green.svg)](https://github.com/[USERNAME]/info7)
 [![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/[USERNAME]/info7)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -21,7 +21,7 @@ Comprehensive research on AI agent orchestration systems with deep philosophical
 3. **Proposes** an ideal system concept (Leonardo AI) combining both approaches
 4. **Provides** a practical roadmap for implementation (2026-2030)
 
-**Volume:** 31 files, ~193,000 words (~643 pages)
+**Volume:** 32 files, ~199,000 words (~663 pages)
 **Status:** Research complete, transition to implementation
 **License:** MIT
 
@@ -46,6 +46,11 @@ Comprehensive research on AI agent orchestration systems with deep philosophical
 **[CURRENT_DEVELOPMENT_STAGE.md](CURRENT_DEVELOPMENT_STAGE.md)** - Current state
 **[IMPLEMENTATION_ROADMAP.md](IMPLEMENTATION_ROADMAP.md)** - Practical roadmap
 **[ROADMAP_VISUAL.md](ROADMAP_VISUAL.md)** - Visual timeline
+
+### 🏗️ Architecture
+
+**[ARCHITECTURE.md](ARCHITECTURE.md)** - ASCII architecture diagrams
+**[ARCHITECTURE_DIAGRAMS.md](ARCHITECTURE_DIAGRAMS.md)** - Interactive Mermaid diagrams
 
 ### 🤝 Community
 
@@ -96,9 +101,9 @@ Comprehensive research on AI agent orchestration systems with deep philosophical
 ## 📊 Project Statistics
 
 ```
-Files:          31
-Documentation:  ~193,000 words
-Commits:        18 (projected)
+Files:          32
+Documentation:  ~199,000 words
+Commits:        19 (projected)
 Version:        1.3.0
 License:        MIT
 Status:         Production ready 🚀

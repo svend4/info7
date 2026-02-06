@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/[USERNAME]/info7/releases)
-[![Documentation](https://img.shields.io/badge/docs-204k%20words-green.svg)](https://github.com/[USERNAME]/info7)
+[![Documentation](https://img.shields.io/badge/docs-210k%20words-green.svg)](https://github.com/[USERNAME]/info7)
 [![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/[USERNAME]/info7)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -21,7 +21,7 @@ Comprehensive research on AI agent orchestration systems with deep philosophical
 3. **Proposes** an ideal system concept (Leonardo AI) combining both approaches
 4. **Provides** a practical roadmap for implementation (2026-2030)
 
-**Volume:** 33 files, ~204,000 words (~680 pages)
+**Volume:** 34 files, ~210,000 words (~700 pages)
 **Status:** Research complete, transition to implementation
 **License:** MIT
 
@@ -35,6 +35,11 @@ Comprehensive research on AI agent orchestration systems with deep philosophical
 - Complete project summary
 - All three systems explained
 - Roadmap, business potential, and next steps
+
+**[PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md)** - Complete navigation map
+- Visual tree of all 34 files
+- Reading paths by role (developer, business, researcher)
+- File dependencies and recommendations
 
 **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** - Choose a system in 30 seconds
 - Decision tree for quick selection
@@ -106,9 +111,9 @@ Comprehensive research on AI agent orchestration systems with deep philosophical
 ## 📊 Project Statistics
 
 ```
-Files:          33
-Documentation:  ~204,000 words
-Commits:        20
+Files:          34
+Documentation:  ~210,000 words
+Commits:        22 (projected)
 Version:        1.3.0
 License:        MIT
 Status:         Production ready 🚀

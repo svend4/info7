@@ -85,29 +85,39 @@
   - Philosophical foundation and key concepts
   - Roadmap timeline with 7 milestones
   - Business potential and investment requirements
-  - Documentation structure categorized (32 files, ~199k words)
+  - Documentation structure categorized (33 files, ~204k words)
   - Technology stack and current status
   - Usage guides (for developers, business, researchers)
   - Next steps and contribution guidelines
   - Project statistics and final thought
 
+- **PROJECT_STRUCTURE.md** - Complete navigation map (~6,000 words)
+  - Visual tree of all 34 files with descriptions
+  - Navigation by purpose (quick start, business, developer, researcher)
+  - Files by size, type, and importance
+  - Reading paths (Quick Start 30min, Business 1h, Developer 2-3h, Researcher 8-10h)
+  - File dependencies and evolution history
+  - Top 10 most important files
+  - Decision tree for file selection
+  - Complete statistics and tips for navigation
+
 ### Changed
 - Updated README.ru.md with ARCHITECTURE.md and ARCHITECTURE_DIAGRAMS.md links
 - Updated README.ru.md with professional badges (License, Version, Docs, Status, Contributions)
-- Updated README.ru.md statistics to 33 files, ~204,000 words
-- Updated README.ru.md with LICENSE, CODE_OF_CONDUCT, and PROJECT_SUMMARY sections
-- Updated README.ru.md Quick Start with PROJECT_SUMMARY.md link
+- Updated README.ru.md statistics to 34 files, ~210,000 words
+- Updated README.ru.md with LICENSE, CODE_OF_CONDUCT, PROJECT_SUMMARY, and PROJECT_STRUCTURE sections
+- Updated README.ru.md Quick Start with PROJECT_SUMMARY.md and PROJECT_STRUCTURE.md links
 - Updated README.ru.md version to 1.3.0
 - Updated README.md with Architecture section and Mermaid diagrams link
-- Updated README.md with PROJECT_SUMMARY.md in Quick Start section
-- Updated README.md version to 1.3.0 and statistics (33 files, 204k words, 20 commits)
+- Updated README.md with PROJECT_SUMMARY.md and PROJECT_STRUCTURE.md in Quick Start section
+- Updated README.md version to 1.3.0 and statistics (34 files, 210k words, 22 commits)
 - Updated ARCHITECTURE.md with reference to Mermaid diagrams
 - Updated CURRENT_DEVELOPMENT_STAGE.md to v1.1 for info7 v1.3.0
-  - Reflected all v1.3.0 additions (33 files, 204k words, 20 commits)
+  - Reflected all v1.3.0 additions (34 files, 210k words, 22 commits)
   - Updated metrics visualization (95% publication ready)
   - Enhanced milestones and next steps
   - Updated production-ready status
-- Updated PULL_REQUEST.md with final statistics (33 files, 204k words, 20 commits)
+- Updated PULL_REQUEST.md with final statistics (34 files, 210k words, 22 commits)
 
 ---
 

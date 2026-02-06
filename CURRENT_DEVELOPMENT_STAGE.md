@@ -1,6 +1,6 @@
 # Текущая стадия разработки
 
-**Дата актуализации:** 2026-02-07 (05:00 UTC)
+**Дата актуализации:** 2026-02-07 (06:00 UTC)
 **Версия документа:** 1.11 (обновлено: Leonardo AI ML Components! 🤖)
 
 ---
@@ -559,7 +559,7 @@
 - Проект остается в исследовательской фазе
 - Используется только в академических целях
 
-### 📈 Зрелость: **30%** ⬆️ (+5% - 2026-02-07 05:00 UTC, total +25% today) 🤖 **ML Components Added!**
+### 📈 Зрелость: **35%** ⬆️ (+5% - 2026-02-07 05:00 UTC, total +25% today) 🤖 **ML Components Added!**
 
 **Готовность к production:** Нет, prototype + ML enhancement stage
 **Рекомендация:** ML-enhanced prototype с интеграцией 15 агентов и intelligent decision-making, готов для advanced тестирования
@@ -755,7 +755,7 @@
 |--------|--------|----------|------------------|--------------|
 | **OpenClaw** | Production + Security | **80%** ⬆️ | Да, secure | Интеграционный слой готов к внедрению |
 | **Orchestrator Kit** | Production-Ready | **95%** ⬆️🎉🎉 | Да, beta ready | **15 агентов готовы, 845+ тестов, 95% milestone!** |
-| **Leonardo AI** | ML Enhancement Phase | **30%** ⬆️🤖 | Нет | ML-enhanced с 15 agents, intelligent decision-making |
+| **Leonardo AI** | ML Enhancement Phase | **35%** ⬆️🤖 | Нет | ML-enhanced с 15 agents, intelligent decision-making |
 | **info7 (документация)** | Production Ready (v1.5.0) | 100% | Да | Готово к публичному релизу и использованию |
 
 ---
@@ -931,6 +931,6 @@ Community:         ████████████████░░ 85%
 **Последнее обновление:** 2026-02-07 05:00 UTC
 **Следующий пересмотр:** Каждые 3 месяца
 **Версия:** 1.11
-**Статус:** ✅ Актуально (Leonardo AI ML Components - Intelligent decision-making, 30% maturity)
+**Статус:** ✅ Актуально (Leonardo AI ML Components - Intelligent decision-making, 35% maturity)
 
 https://claude.ai/code/session_01WnQdgU1MrECnhh3xfVNRAg

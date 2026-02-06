@@ -1,18 +1,18 @@
 # Multi-Project Development Roadmap
 
-**Версия:** 1.10 (обновлено: Leonardo AI ML Components! 🤖)
-**Дата:** 2026-02-07 05:00 UTC
+**Версия:** 1.11 (обновлено: Leonardo AI ML-Enhanced Consciousness! 🧠🤖)
+**Дата:** 2026-02-07 06:00 UTC
 **Цель:** Параллельное развитие всех 4 проектов до production-ready состояния
 
 ---
 
-## 📊 Текущее состояние (2026-02-07 05:00 UTC)
+## 📊 Текущее состояние (2026-02-07 06:00 UTC)
 
 | Проект | Зрелость | Статус | Приоритет | Цель | Прогресс |
 |--------|----------|--------|-----------|------|----------|
 | **OpenClaw** | **80%** ⬆️🔒 | Secure Integration Complete | 🔴 Высокий | → 95% (Q3 2026) | **+10%** Integration layer ready |
 | **Orchestrator Kit** | **95%** ⬆️🎉🎉 | **Beta-Ready** (**15 agents**) | 🟢 Ready | ✅✅ **95% Achieved!** | **+35%** 15 agents, 845+ tests |
-| **Leonardo AI** | **30%** ⬆️🤖 | ML Enhancement Complete | 🟠 Высокий | → 40% (Q2 2026) | **+25%** ML-enhanced decision-making |
+| **Leonardo AI** | **35%** ⬆️🤖 | ML Enhancement Complete | 🟠 Высокий | → 40% (Q2 2026) | **+25%** ML-enhanced decision-making |
 | **info7** | 100% | Production Ready | 🟢 Поддержка | → Maintenance | v1.5.0 |
 
 ---
@@ -33,7 +33,7 @@
         │                    │                    │
     Track 1             Track 2             Track 3            Track 4
   OpenClaw          Orchestrator         Leonardo AI         info7
-    (30%)              (30%)               (35%)            (support)
+    (35%)              (30%)               (35%)            (support)
      ↓                  ↓                   ↓                 ↓
   Security         New Agents          Prototype         Updates
   Refactoring      GUI                 Consciousness     Tutorials
@@ -42,8 +42,8 @@
 
 ### Распределение ресурсов:
 
-- **OpenClaw:** 30% времени/ресурсов (security critical)
-- **Orchestrator Kit:** 30% (foundation для Leonardo)
+- **OpenClaw:** 35% времени/ресурсов (security critical)
+- **Orchestrator Kit:** 35% (foundation для Leonardo)
 - **Leonardo AI:** 35% (главный приоритет - новая система)
 - **info7:** 5% (поддержка, обновления документации)
 

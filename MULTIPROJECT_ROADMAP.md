@@ -1,19 +1,19 @@
 # Multi-Project Development Roadmap
 
-**Версия:** 1.0
-**Дата:** 2026-02-06
+**Версия:** 1.1 (обновлено с прогрессом параллельной разработки)
+**Дата:** 2026-02-06 21:30 UTC
 **Цель:** Параллельное развитие всех 4 проектов до production-ready состояния
 
 ---
 
-## 📊 Текущее состояние (2026-02-06)
+## 📊 Текущее состояние (2026-02-06 21:30 UTC)
 
-| Проект | Зрелость | Статус | Приоритет | Цель |
-|--------|----------|--------|-----------|------|
-| **OpenClaw** | 70% | Production (⚠️ security) | 🔴 Высокий | → 95% (Q3 2026) |
-| **Orchestrator Kit** | 60% | Beta (активная разработка) | 🟠 Высокий | → 90% (Q4 2026) |
-| **Leonardo AI** | 5% | Concept (только docs) | 🔴 Критический | → 40% (Q4 2026) |
-| **info7** | 100% | Production Ready | 🟢 Поддержка | → Maintenance |
+| Проект | Зрелость | Статус | Приоритет | Цель | Прогресс |
+|--------|----------|--------|-----------|------|----------|
+| **OpenClaw** | **75%** ⬆️ | Production + Security | 🔴 Высокий | → 95% (Q3 2026) | **+5%** Sandbox ready |
+| **Orchestrator Kit** | **70%** ⬆️ | Beta+ (2 agents ready) | 🟠 Высокий | → 90% (Q4 2026) | **+10%** 2 agents, 150+ tests |
+| **Leonardo AI** | **15%** ⬆️ | Early Prototype | 🔴 Критический | → 40% (Q4 2026) | **+10%** 100+ tests |
+| **info7** | 100% | Production Ready | 🟢 Поддержка | → Maintenance | v1.5.0 |
 
 ---
 
@@ -49,7 +49,9 @@
 
 ---
 
-# Track 1: OpenClaw (70% → 95%)
+# Track 1: OpenClaw (75% → 95%) ⬆️ +5%
+
+**✅ ПРОГРЕСС (2026-02-06):** Создан @openclaw/sandbox package v0.1.0 - production-ready sandbox для безопасного выполнения skills
 
 ## Цель: Устранить критические проблемы безопасности, стабилизировать для production
 
@@ -924,7 +926,13 @@ async function executeSkill(skillId: string, context: any) {
 
 ---
 
-# Track 2: Orchestrator Kit (60% → 90%)
+# Track 2: Orchestrator Kit (70% → 90%) ⬆️ +10%
+
+**✅ ПРОГРЕСС (2026-02-06):**
+- Создано 2 production-ready агента: Social Law Specialist (~500 строк) + Case Manager (~600 строк)
+- Benefits Calculator skill (~400 строк)
+- 150+ unit tests с Vitest
+- Полная monorepo структура с pnpm + Turborepo
 
 ## Цель: Реализовать новые агенты, GUI, enterprise функции
 
@@ -1482,7 +1490,13 @@ app.delete('/api/agents/:id',
 
 ---
 
-# Track 3: Leonardo AI (5% → 40%)
+# Track 3: Leonardo AI (15% → 40%) ⬆️ +10%
+
+**✅ ПРОГРЕСС (2026-02-06):**
+- Simple Coordinator prototype (~350 строк TypeScript)
+- Shared types package с полной типизацией (~600 строк)
+- 100+ comprehensive test cases для всех компонентов
+- Working prototype готов к интеграции с Cognitive/Action cores
 
 ## Цель: От концепции к работающему прототипу
 
@@ -1765,11 +1779,11 @@ export class MultiAgentCoordinator {
 # 📊 Timeline Overview (2026)
 
 ```
-Q1 2026 (Feb-Mar)
-├── OpenClaw: Security Hardening (70% → 75%)
-├── Orchestrator: New Agents (60% → 70%)
-├── Leonardo: Prototype v0.1 (5% → 15%)
-└── info7: Updates & Planning
+Q1 2026 (Feb-Mar) ✅ IN PROGRESS
+├── ✅ OpenClaw: Security Hardening (70% → 75%) - @openclaw/sandbox ready
+├── ✅ Orchestrator: New Agents (60% → 70%) - 2 agents, 150+ tests
+├── ✅ Leonardo: Prototype v0.1 (5% → 15%) - Simple Coordinator + 100+ tests
+└── ✅ info7: Updates & Planning - v1.5.0 released
 
 Q2 2026 (Apr-Jun)
 ├── OpenClaw: Microservices Migration (75% → 85%)

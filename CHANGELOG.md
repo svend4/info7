@@ -7,6 +7,61 @@
 
 ---
 
+## [1.5.0] - 2026-02-06 21:30 UTC
+
+### Added - Parallel Development Implementation
+
+**Major milestone:** Completed parallel development across 3 tracks (Security, Orchestrator Kit, Leonardo AI)
+
+#### Track 1: OpenClaw Security Implementation
+- **@openclaw/sandbox package (v0.1.0)** - Production-ready security sandbox
+  - `packages/sandbox/` structure with 5 TypeScript modules (~800 lines)
+  - **SkillSandbox class** (~400 lines) - VM2 isolation, API whitelisting, domain restrictions
+  - **ResourceMonitor class** (~200 lines) - Real-time resource monitoring and enforcement
+  - **Type definitions** (~180 lines) - Complete TypeScript type system
+  - **60+ comprehensive test cases** - Full security testing coverage
+  - Complete package infrastructure (package.json, tsconfig.json, vitest.config.ts)
+  - Full API documentation in README.md
+- Updated **openclaw-security/README.md** with sandbox package details
+- Updated remediation timeline: Phase 1 sandbox package marked complete
+
+#### Track 2: Orchestrator Kit Agent Development
+- **Case Manager Agent** (~600 lines TypeScript) - Second production-ready agent
+  - Client needs assessment across 6 categories (financial, housing, health, employment, education, legal)
+  - Automatic action plan generation with steps, milestones, and deadlines
+  - Intervention scheduling and tracking (counseling, monitoring sessions)
+  - Case report generation and status management
+  - **50+ unit tests** with full functional coverage
+  - Complete package structure at `/packages/agents/social/case-manager/`
+- Total Orchestrator Kit progress: **2 production agents**, **1 skill**, **150+ tests**
+
+#### Track 3: Leonardo AI Test Coverage
+- **100+ comprehensive test cases** for Simple Coordinator
+  - Task Analyzer tests (complexity, uncertainty, urgency estimation)
+  - Strategy Selector tests (thinking-first, action-first, iterative selection)
+  - Consciousness State tracking and metrics tests
+  - Performance and execution metrics tests
+  - Edge cases and concurrent execution scenarios
+  - Complete test coverage at `/packages/agents/coordinator/src/simple-coordinator.test.ts`
+
+### Changed - Documentation Updates
+- **CURRENT_DEVELOPMENT_STAGE.md v1.2 → v1.3**
+  - OpenClaw maturity: 70% → **75%** (security improvements with sandbox)
+  - Orchestrator Kit maturity: 65% → **70%** (2 production agents ready)
+  - Leonardo AI maturity: 10% → **15%** (100+ tests, working prototype)
+  - Added comprehensive Security Initiative section for OpenClaw
+  - Updated all progress metrics and visualizations
+  - Document timestamp: 2026-02-06 21:30 UTC
+
+### Statistics
+- **Code written:** ~1,800 lines of production TypeScript
+- **Tests created:** 210+ unit tests (60 + 50 + 100)
+- **Files added:** 11 new files across 3 projects
+- **Documentation:** 3 comprehensive README files
+- **Git:** 1 detailed commit with full parallel development summary
+
+---
+
 ## [1.4.0] - 2026-02-06
 
 ### Added

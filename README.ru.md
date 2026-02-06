@@ -2,13 +2,19 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/[USERNAME]/info7/releases)
-[![Documentation](https://img.shields.io/badge/docs-210k%20words-green.svg)](https://github.com/[USERNAME]/info7)
+[![Documentation](https://img.shields.io/badge/docs-213k%20words-green.svg)](https://github.com/[USERNAME]/info7)
 [![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/[USERNAME]/info7)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 Комплексное исследование систем оркестрации AI-агентов с глубоким философским и техническим анализом.
 
 ## 📊 Быстрый старт
+
+**⭐ [GETTING_STARTED.md](GETTING_STARTED.md)** - Быстрое руководство для новичков (~3,000 слов)
+- 🚀 Начните здесь, если вы впервые
+- 🎯 Пути чтения по ролям (5-30 минут)
+- ❓ Мгновенный выбор системы за 30 секунд
+- 💡 Частые вопросы и быстрые ответы
 
 **[PROJECT_SUMMARY.md](PROJECT_SUMMARY.md)** - Обзор всего проекта на одной странице (~5,000 слов)
 - 📖 Полный обзор за 5 минут
@@ -17,7 +23,7 @@
 - 🚀 Идеальная отправная точка для новых читателей
 
 **[PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md)** - Полная навигационная карта проекта (~6,000 слов)
-- 🗺️ Визуальное дерево всех 34 файлов
+- 🗺️ Визуальное дерево всех 35 файлов
 - 📚 Пути чтения по ролям (разработчик, бизнес, исследователь)
 - 🔗 Зависимости файлов и рекомендации
 - 🎯 Decision tree для выбора с чего начать
@@ -40,7 +46,7 @@
 - 🤖 **OpenClaw** - Production (70% зрелости, ⚠️ проблемы безопасности)
 - 🎼 **Orchestrator Kit** - Beta (60% зрелости, активная разработка)
 - 🎨 **Leonardo AI** - Concept (5% зрелости, только документация)
-- 📚 **info7 v1.3.0** - Production Ready (100% зрелости, 210k слов, 34 файла)
+- 📚 **info7 v1.3.0** - Production Ready (100% зрелости, 213k слов, 35 файлов)
 
 **[IMPLEMENTATION_ROADMAP.md](IMPLEMENTATION_ROADMAP.md)** - Практическая дорожная карта реализации (~10,000 слов)
 - 🚀 **Q1-Q2 2026:** Новые агенты + прототип Leonardo AI
@@ -267,8 +273,8 @@
 
 ## 📊 Статистика проекта
 
-- **Общий объем документации:** ~210,000 слов
-- **Количество файлов:** 34 файла (28 markdown + 4 GitHub templates + LICENSE + .gitignore)
+- **Общий объем документации:** ~213,000 слов (~710 страниц)
+- **Количество файлов:** 35 файлов (29 markdown + 4 GitHub templates + LICENSE + .gitignore)
 - **Охват тем:**
   - Техническая архитектура ✅
   - Профессиональные домены ✅

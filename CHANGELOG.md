@@ -92,7 +92,7 @@
   - Project statistics and final thought
 
 - **PROJECT_STRUCTURE.md** - Complete navigation map (~6,000 words)
-  - Visual tree of all 34 files with descriptions
+  - Visual tree of all 35 files with descriptions
   - Navigation by purpose (quick start, business, developer, researcher)
   - Files by size, type, and importance
   - Reading paths (Quick Start 30min, Business 1h, Developer 2-3h, Researcher 8-10h)
@@ -101,23 +101,31 @@
   - Decision tree for file selection
   - Complete statistics and tips for navigation
 
+- **GETTING_STARTED.md** - Ultra-quick beginner's guide (~3,000 words)
+  - 2-minute quick start for complete beginners
+  - Reading paths by role (5-30 minutes)
+  - 30-second system selection guide
+  - Common Q&A for quick answers
+  - Essential navigation links
+  - Perfect entry point for newcomers
+
 ### Changed
 - Updated README.ru.md with ARCHITECTURE.md and ARCHITECTURE_DIAGRAMS.md links
 - Updated README.ru.md with professional badges (License, Version, Docs, Status, Contributions)
-- Updated README.ru.md statistics to 34 files, ~210,000 words
+- Updated README.ru.md statistics to 35 files, ~213,000 words
 - Updated README.ru.md with LICENSE, CODE_OF_CONDUCT, PROJECT_SUMMARY, and PROJECT_STRUCTURE sections
-- Updated README.ru.md Quick Start with PROJECT_SUMMARY.md and PROJECT_STRUCTURE.md links
+- Updated README.ru.md Quick Start with GETTING_STARTED.md, PROJECT_SUMMARY.md, and PROJECT_STRUCTURE.md links
 - Updated README.ru.md version to 1.3.0
 - Updated README.md with Architecture section and Mermaid diagrams link
 - Updated README.md with PROJECT_SUMMARY.md and PROJECT_STRUCTURE.md in Quick Start section
-- Updated README.md version to 1.3.0 and statistics (34 files, 210k words, 22 commits)
+- Updated README.md version to 1.3.0 and statistics (35 files, 213k words, 23 commits)
 - Updated ARCHITECTURE.md with reference to Mermaid diagrams
 - Updated CURRENT_DEVELOPMENT_STAGE.md to v1.1 for info7 v1.3.0
-  - Reflected all v1.3.0 additions (34 files, 210k words, 22 commits)
-  - Updated metrics visualization (95% publication ready)
+  - Reflected all v1.3.0 additions (35 files, 213k words, 23 commits)
+  - Updated metrics visualization (100% publication ready)
   - Enhanced milestones and next steps
-  - Updated production-ready status
-- Updated PULL_REQUEST.md with final statistics (34 files, 210k words, 22 commits)
+  - Updated production-ready status with GETTING_STARTED.md
+- Updated PULL_REQUEST.md with final statistics (35 files, 213k words, 23 commits)
 
 ---
 

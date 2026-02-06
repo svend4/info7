@@ -149,9 +149,9 @@
 
 ## 📊 Финальная статистика проекта
 
-- **Всего файлов:** 34 (28 markdown + 4 GitHub templates + LICENSE + .gitignore)
-- **Общий объем:** ~210,000 слов (~700 страниц)
-- **Коммитов:** 22 (включая финализацию)
+- **Всего файлов:** 35 (29 markdown + 4 GitHub templates + LICENSE + .gitignore)
+- **Общий объем:** ~213,000 слов (~710 страниц)
+- **Коммитов:** 23 (включая финализацию)
 - **Версия:** 1.3.0
 - **Лицензия:** MIT
 - **Охват тем:**
@@ -166,7 +166,7 @@
   - ✅ Interactive visualizations (20+ Mermaid diagrams, ASCII art)
   - ✅ Визуальные roadmap и архитектура (timelines, Gantt charts)
   - ✅ Английская и русская версии (bilingual documentation)
-  - ✅ Quick navigation (PROJECT_SUMMARY, QUICK_REFERENCE, PROJECT_STRUCTURE)
+  - ✅ Quick navigation (GETTING_STARTED, PROJECT_SUMMARY, QUICK_REFERENCE, PROJECT_STRUCTURE)
   - ✅ Production-ready infrastructure (CI/CD templates, .gitignore)
   - ✅ Complete file navigation map (reading paths, dependencies, decision tree)
 

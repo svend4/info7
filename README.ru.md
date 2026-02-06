@@ -1,8 +1,8 @@
 # Info7 - Исследование AI-агентов и оркестрации
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)](https://github.com/[USERNAME]/info7/releases)
-[![Documentation](https://img.shields.io/badge/docs-180k%20words-green.svg)](https://github.com/[USERNAME]/info7)
+[![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/[USERNAME]/info7/releases)
+[![Documentation](https://img.shields.io/badge/docs-193k%20words-green.svg)](https://github.com/[USERNAME]/info7)
 [![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/[USERNAME]/info7)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -249,8 +249,8 @@
 
 ## 📊 Статистика проекта
 
-- **Общий объем документации:** ~180,000 слов
-- **Количество файлов:** 20 markdown документов + GitHub templates
+- **Общий объем документации:** ~193,000 слов
+- **Количество файлов:** 31 файлов (25 markdown + 4 GitHub templates + LICENSE + .gitignore)
 - **Охват тем:**
   - Техническая архитектура ✅
   - Профессиональные домены ✅
@@ -261,6 +261,7 @@
   - Текущая стадия разработки ✅
   - Бизнес-анализ и инвестиции ✅
   - FAQ и руководства ✅
+  - Инфраструктура проекта (LICENSE, Security, Code of Conduct) ✅
 
 ---
 
@@ -276,6 +277,7 @@
 **Хотите помочь проекту?**
 - 📖 [FAQ.md](FAQ.md) - Часто задаваемые вопросы
 - 🤝 [CONTRIBUTING.md](CONTRIBUTING.md) - Руководство для контрибьюторов
+- 📜 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) - Кодекс поведения сообщества
 - ⭐ GitHub Star - Поддержите проект
 - 💬 Issues & Discussions - Обсуждайте и предлагайте
 
@@ -305,6 +307,6 @@
 ---
 
 **Последнее обновление:** 2026-02-06
-**Версия:** 1.2.0
+**Версия:** 1.3.0
 **Статус:** Активная разработка 🚀
 **Лицензия:** MIT

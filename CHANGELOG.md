@@ -7,6 +7,76 @@
 
 ---
 
+## [1.3.0] - 2026-02-06
+
+### Added
+- **LICENSE** - MIT License for open source distribution
+  - Copyright 2026, permissions for commercial use
+  - Open source friendly for all contributors
+
+- **GitHub Templates** - Professional issue and PR templates
+  - `.github/ISSUE_TEMPLATE/bug_report.md` - Structured bug reporting
+  - `.github/ISSUE_TEMPLATE/feature_request.md` - Feature proposals with priority
+  - `.github/ISSUE_TEMPLATE/question.md` - Q&A template with categories
+  - `.github/pull_request_template.md` - Comprehensive PR checklist
+
+- **ARCHITECTURE.md** - Visual architecture documentation (~7,000 words)
+  - ASCII diagrams for all three systems
+  - OpenClaw Gateway Pattern visualization
+  - Orchestrator Kit Orchestrator Pattern visualization
+  - Leonardo AI Corpus Callosum Pattern visualization
+  - Data flow diagrams
+  - Deployment architecture
+
+- **SECURITY.md** - Security policy and best practices (~4,000 words)
+  - Responsible disclosure process (48h acknowledgment, 7d response)
+  - Known security issues (OpenClaw: 230+ malicious skills)
+  - Security best practices with code examples
+  - Security checklist for developers
+  - Safe harbor for researchers
+  - Dependency security monitoring
+
+- **.gitignore** - Professional gitignore for Node.js/TypeScript projects
+  - Node.js, build outputs, environment variables
+  - API keys and secrets exclusion
+  - OS files, IDE files, logs, coverage
+  - TypeScript, Python, Database files
+
+- **ROADMAP_VISUAL.md** - Visual timeline 2022-2035 (~5,000 words)
+  - ASCII timeline with milestones
+  - Year-by-year breakdown (2026-2030)
+  - 7 major milestones with deliverables
+  - Progress tracking visualization (currently 20%)
+  - Risk matrix (high/medium/low risks)
+  - Success metrics for each year
+  - Dependencies and critical path
+
+- **README.md** - English version for international audience
+  - Concise structure with badges
+  - Links to Russian version (comprehensive)
+  - Quick navigation to all key documents
+  - Three systems comparison
+  - Business potential highlights
+  - Project statistics
+
+- **CODE_OF_CONDUCT.md** - Community code of conduct (~4,000 words)
+  - Based on Contributor Covenant 2.1
+  - Standards for positive behavior
+  - Examples of acceptable and unacceptable behavior
+  - Enforcement guidelines (Correction → Warning → Temp Ban → Permanent Ban)
+  - Reporting process and confidentiality
+  - Examples of constructive vs destructive interactions
+
+### Changed
+- Updated README.ru.md with ARCHITECTURE.md link
+- Updated README.ru.md with professional badges (License, Version, Docs, Status, Contributions)
+- Updated README.ru.md statistics to 30 files, ~189,000 words
+- Updated README.ru.md with LICENSE section
+- Updated README.ru.md version to 1.3.0
+- Updated PULL_REQUEST.md with final statistics (30 files, 189k words, 17 commits)
+
+---
+
 ## [1.2.0] - 2026-02-06
 
 ### Added
@@ -177,15 +247,9 @@
 
 ## Upcoming
 
-### Planned for v1.3.0
-- [ ] LICENSE file (MIT)
-- [ ] GitHub Issue templates
-- [ ] GitHub Pull Request template
-- [ ] SECURITY.md policy
-- [ ] CODE_OF_CONDUCT.md
-
 ### Planned for v1.4.0
-- [ ] English translations (README.en.md, FAQ.en.md)
+- [x] CODE_OF_CONDUCT.md - Community code of conduct ✅
+- [x] English translations (README.md ✅, FAQ.en.md still planned)
 - [ ] Mermaid diagrams for Leonardo AI architecture
 - [ ] Video tutorials
 - [ ] Interactive demo
@@ -205,13 +269,14 @@ This project follows [Semantic Versioning](https://semver.org/):
 - **MINOR** version (0.X.0) - New features, backward compatible
 - **PATCH** version (0.0.X) - Bug fixes, backward compatible
 
-### Current Version: 1.2.0
+### Current Version: 1.3.0
 
 **Documentation versions:**
 - 0.1.0 - Initial setup
 - 1.0.0 - Complete documentation (professional categories, philosophy, Leonardo AI)
 - 1.1.0 - Practical guides (Quick Reference, Executive Summary, Roadmap, Development Stage)
 - 1.2.0 - Community guides (FAQ, Contributing)
+- 1.3.0 - Project infrastructure (LICENSE, GitHub templates, SECURITY, ARCHITECTURE, ROADMAP_VISUAL, README.md English)
 
 ---
 

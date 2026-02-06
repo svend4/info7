@@ -1,8 +1,8 @@
 # Info7 - AI Agents Orchestration Research
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)](https://github.com/[USERNAME]/info7/releases)
-[![Documentation](https://img.shields.io/badge/docs-189k%20words-green.svg)](https://github.com/[USERNAME]/info7)
+[![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/[USERNAME]/info7/releases)
+[![Documentation](https://img.shields.io/badge/docs-193k%20words-green.svg)](https://github.com/[USERNAME]/info7)
 [![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/[USERNAME]/info7)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -21,7 +21,7 @@ Comprehensive research on AI agent orchestration systems with deep philosophical
 3. **Proposes** an ideal system concept (Leonardo AI) combining both approaches
 4. **Provides** a practical roadmap for implementation (2026-2030)
 
-**Volume:** 30 files, ~189,000 words (~630 pages)
+**Volume:** 31 files, ~193,000 words (~643 pages)
 **Status:** Research complete, transition to implementation
 **License:** MIT
 
@@ -51,6 +51,7 @@ Comprehensive research on AI agent orchestration systems with deep philosophical
 
 **[FAQ.md](FAQ.md)** - 50+ frequently asked questions
 **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contributor guide
+**[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** - Community code of conduct
 **[SECURITY.md](SECURITY.md)** - Security policy
 
 ---
@@ -95,10 +96,10 @@ Comprehensive research on AI agent orchestration systems with deep philosophical
 ## 📊 Project Statistics
 
 ```
-Files:          30
-Documentation:  ~189,000 words
-Commits:        16
-Version:        1.2.0
+Files:          31
+Documentation:  ~193,000 words
+Commits:        18 (projected)
+Version:        1.3.0
 License:        MIT
 Status:         Production ready 🚀
 ```
@@ -126,6 +127,6 @@ MIT License - see [LICENSE](LICENSE) file
 
 ---
 
-**Last Updated:** 2026-02-06 | **Version:** 1.2.0 | **License:** MIT
+**Last Updated:** 2026-02-06 | **Version:** 1.3.0 | **License:** MIT
 
 https://claude.ai/code/session_01WnQdgU1MrECnhh3xfVNRAg

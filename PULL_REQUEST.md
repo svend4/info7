@@ -149,10 +149,10 @@
 
 ## 📊 Финальная статистика проекта
 
-- **Всего файлов:** 30 (24 markdown + 4 GitHub templates + LICENSE + .gitignore)
-- **Общий объем:** ~189,000 слов (~630 страниц)
-- **Коммитов:** 17 (включая финализацию)
-- **Версия:** 1.2.0
+- **Всего файлов:** 31 (25 markdown + 4 GitHub templates + LICENSE + .gitignore)
+- **Общий объем:** ~193,000 слов (~643 страниц)
+- **Коммитов:** 18 (включая финализацию)
+- **Версия:** 1.3.0
 - **Лицензия:** MIT
 - **Охват тем:**
   - ✅ Техническая архитектура
@@ -161,8 +161,8 @@
   - ✅ Футурология
   - ✅ Практические примеры
   - ✅ Бизнес-анализ и инвестиции
-  - ✅ Community guidelines (FAQ, CONTRIBUTING)
-  - ✅ Security policy
+  - ✅ Community guidelines (FAQ, CONTRIBUTING, CODE_OF_CONDUCT)
+  - ✅ Security & governance (SECURITY, LICENSE)
   - ✅ Визуальные roadmap и архитектура
   - ✅ Английская и русская версии
 

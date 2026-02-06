@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/[USERNAME]/info7/releases)
-[![Documentation](https://img.shields.io/badge/docs-199k%20words-green.svg)](https://github.com/[USERNAME]/info7)
+[![Documentation](https://img.shields.io/badge/docs-204k%20words-green.svg)](https://github.com/[USERNAME]/info7)
 [![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/[USERNAME]/info7)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -34,7 +34,7 @@
 - 🤖 **OpenClaw** - Production (70% зрелости, ⚠️ проблемы безопасности)
 - 🎼 **Orchestrator Kit** - Beta (60% зрелости, активная разработка)
 - 🎨 **Leonardo AI** - Concept (5% зрелости, только документация)
-- 📚 **info7 v1.3.0** - Production Ready (100% зрелости, 199k слов, 32 файла)
+- 📚 **info7 v1.3.0** - Production Ready (100% зрелости, 204k слов, 33 файла)
 
 **[IMPLEMENTATION_ROADMAP.md](IMPLEMENTATION_ROADMAP.md)** - Практическая дорожная карта реализации (~10,000 слов)
 - 🚀 **Q1-Q2 2026:** Новые агенты + прототип Leonardo AI
@@ -261,8 +261,8 @@
 
 ## 📊 Статистика проекта
 
-- **Общий объем документации:** ~199,000 слов
-- **Количество файлов:** 32 файла (26 markdown + 4 GitHub templates + LICENSE + .gitignore)
+- **Общий объем документации:** ~204,000 слов
+- **Количество файлов:** 33 файла (27 markdown + 4 GitHub templates + LICENSE + .gitignore)
 - **Охват тем:**
   - Техническая архитектура ✅
   - Профессиональные домены ✅

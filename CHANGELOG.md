@@ -97,6 +97,21 @@ openclaw-security/
 
 **Status**: 🎉 **PRODUCTION COMPLETE & READY FOR DEPLOYMENT!**
 
+#### Internationalization
+
+**README.ru.md** (~450 lines):
+- Complete Russian translation of project README
+- Fully localized badges and status indicators
+- Culturally appropriate content for Russian developers
+- Language switcher added to both English and Russian versions
+- Comprehensive documentation accessibility
+
+**Localization:**
+- English (README.md)
+- Русский (README.ru.md)
+- Language navigation between versions
+- International community support
+
 ---
 
 ## [1.23.0] - 2026-02-07 14:00 UTC

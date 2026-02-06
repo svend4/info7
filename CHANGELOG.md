@@ -7,6 +7,39 @@
 
 ---
 
+## [1.4.0] - 2026-02-06
+
+### Added
+- **MULTIPROJECT_ROADMAP.md** - Comprehensive parallel development plan for all 4 projects (~13,000 words)
+  - **Track-based approach:** Parallel development with resource allocation
+    - Track 1: OpenClaw (70% → 95%) - Security hardening, Skills Marketplace
+    - Track 2: Orchestrator Kit (60% → 90%) - New agents, GUI, Enterprise features
+    - Track 3: Leonardo AI (5% → 40%) - Prototype, ML enhancement, Advanced features
+    - Track 4: info7 (maintenance) - Documentation updates and tutorials
+  - **Detailed Q1-Q4 2026 timeline** with quarterly breakdown
+    - Q1: Security audit, First agents, Simple Coordinator prototype
+    - Q2: Microservices migration, Web UI, ML Task Analyzer
+    - Q3: Skills Marketplace, RBAC/SSO, RL Strategy Selection
+    - Q4: Production hardening, Testing, Monitoring
+  - **1500+ lines of production-ready code examples:**
+    - Security Sandbox System (~300 lines) - VM2 isolation, resource limits
+    - Skills Verification System (~200 lines) - Static/dynamic analysis, code signing
+    - Case Manager Agent (~150 lines) - Needs assessment, case tracking
+    - Orchestrator Kit Web UI (~100 lines) - React + Socket.IO interface
+    - RBAC System (~100 lines) - Role-based permissions
+    - ML Task Analyzer (~80 lines) - TensorFlow.js strategy prediction
+  - **Resource planning:** $216k budget, 5-person team structure
+  - **Success metrics tables:** Current vs target KPIs for each project
+  - **Immediate next steps:** This week and this month action items
+
+### Changed
+- Updated README.ru.md with MULTIPROJECT_ROADMAP.md in "Быстрый старт" section
+- Updated README.md Planning & Roadmap section with MULTIPROJECT_ROADMAP.md
+- Updated project statistics: 37 → 38 files, ~223k → ~226k words (~743 → ~753 pages)
+- Enhanced badge in README.ru.md to reflect new documentation volume
+
+---
+
 ## [1.3.0] - 2026-02-06
 
 ### Added
@@ -336,7 +369,7 @@ This project follows [Semantic Versioning](https://semver.org/):
 - **MINOR** version (0.X.0) - New features, backward compatible
 - **PATCH** version (0.0.X) - Bug fixes, backward compatible
 
-### Current Version: 1.3.0
+### Current Version: 1.4.0
 
 **Documentation versions:**
 - 0.1.0 - Initial setup
@@ -344,6 +377,7 @@ This project follows [Semantic Versioning](https://semver.org/):
 - 1.1.0 - Practical guides (Quick Reference, Executive Summary, Roadmap, Development Stage)
 - 1.2.0 - Community guides (FAQ, Contributing)
 - 1.3.0 - Project infrastructure (LICENSE, GitHub templates, SECURITY, ARCHITECTURE, ROADMAP_VISUAL, README.md English)
+- 1.4.0 - Parallel development roadmap (MULTIPROJECT_ROADMAP.md with all 4 projects, 1500+ lines code)
 
 ---
 

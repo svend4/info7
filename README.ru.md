@@ -1,8 +1,8 @@
 # Info7 - Исследование AI-агентов и оркестрации
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/[USERNAME]/info7/releases)
-[![Documentation](https://img.shields.io/badge/docs-222k%20words-green.svg)](https://github.com/[USERNAME]/info7)
+[![Version](https://img.shields.io/badge/version-1.4.0-blue.svg)](https://github.com/[USERNAME]/info7/releases)
+[![Documentation](https://img.shields.io/badge/docs-226k%20words-green.svg)](https://github.com/[USERNAME]/info7)
 [![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/[USERNAME]/info7)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -59,6 +59,14 @@
 - 🎯 **Q3-Q4 2026:** ML-based Consciousness + полная интеграция
 - 🌟 **2027-2030:** Масштабирование и релиз v1.0
 - Детальные технические спецификации, примеры кода, метрики успеха
+
+**⭐ [MULTIPROJECT_ROADMAP.md](MULTIPROJECT_ROADMAP.md)** - Параллельная разработка всех 4 проектов (~13,000 слов)
+- 🔀 **Все 4 проекта параллельно:** OpenClaw (70%→95%), Orchestrator Kit (60%→90%), Leonardo AI (5%→40%), info7 (поддержка)
+- 📅 **2026 детально:** Поквартальная разбивка Q1-Q4 с конкретными задачами
+- 💻 **1500+ строк кода:** Security Sandbox, Skills Verification, RBAC, ML Task Analyzer, новые агенты
+- 🎯 **Треки разработки:** Track 1 (OpenClaw безопасность), Track 2 (Orchestrator агенты + GUI), Track 3 (Leonardo прототип + ML), Track 4 (info7 обновления)
+- 💰 **Ресурсы:** Бюджет $216k, команда 5 человек, детальное распределение
+- 📊 **Метрики успеха:** Текущие vs целевые показатели для каждого проекта
 
 **⭐ [IMPLEMENTATION_PLAN_DETAILED.md](IMPLEMENTATION_PLAN_DETAILED.md)** - Полный технический план реализации (~8,600 слов)
 - 📋 **Фаза 1 (Простое):** Инфраструктура проекта (monorepo, TypeScript, CI/CD)
@@ -287,8 +295,8 @@
 
 ## 📊 Статистика проекта
 
-- **Общий объем документации:** ~223,000 слов (~743 страницы)
-- **Количество файлов:** 37 файлов (31 markdown + 4 GitHub templates + LICENSE + .gitignore)
+- **Общий объем документации:** ~226,000 слов (~753 страницы)
+- **Количество файлов:** 38 файлов (32 markdown + 4 GitHub templates + LICENSE + .gitignore)
 - **Охват тем:**
   - Техническая архитектура ✅
   - Профессиональные домены ✅
@@ -345,6 +353,6 @@
 ---
 
 **Последнее обновление:** 2026-02-06
-**Версия:** 1.3.0
+**Версия:** 1.4.0
 **Статус:** Активная разработка 🚀
 **Лицензия:** MIT

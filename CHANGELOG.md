@@ -7,6 +7,86 @@
 
 ---
 
+## [1.6.0] - 2026-02-06 22:00 UTC
+
+### Added - Additional Orchestrator Kit Agents
+
+**Track 2: Orchestrator Kit Expansion (60% → 75%)**
+
+#### Agent 3: Household Manager (~900 lines TypeScript)
+- **Comprehensive household management system**
+  - Task planning and scheduling (cleaning, maintenance, garden, pets)
+  - Shopping lists with item tracking and cost estimation
+  - Household budget management with category tracking
+  - Meal planning and recipe management
+  - Organization suggestions and space optimization
+
+- **Advanced features:**
+  - Recurring task automation with frequency support
+  - Budget warnings when overspending
+  - Automatic action plan generation
+  - Multi-category needs assessment
+  - **50+ comprehensive test cases**
+
+- **File structure:**
+  - `/packages/agents/household/household-manager/src/agent.ts` (~900 lines)
+  - Complete package infrastructure
+  - Full TypeScript type system
+
+#### Agent 4: Labor Law Specialist (~850 lines TypeScript)
+- **Expert in Russian labor law (TK RF)**
+  - Termination analysis with legal basis (st. 81 TK RF)
+  - Leave calculation (annual, sick, maternity, study)
+  - Labor dispute assessment with resolution options
+  - Employee/employer rights consultation
+  - Compensation calculation (st. 236 TK RF)
+
+- **Knowledge base:**
+  - Trudovoy Kodeks RF (TK RF) articles
+  - Termination grounds and procedures
+  - Leave types and requirements
+  - Minimum wage 2026 data
+  - **50+ comprehensive test cases**
+
+- **File structure:**
+  - `/packages/agents/legal/labor-law-specialist/src/agent.ts` (~850 lines)
+  - Complete package infrastructure
+  - Low temperature (0.3) for legal accuracy
+
+### Changed - Documentation Updates
+- **CURRENT_DEVELOPMENT_STAGE.md v1.3 → v1.3.1**
+  - Orchestrator Kit maturity: 70% → **75%** (+5%)
+  - Updated to reflect 4 production-ready agents
+  - Total test count: 150+ → **250+**
+  - Total code: ~1,500 → **~3,250 lines**
+  - Updated metrics visualization
+
+- **MULTIPROJECT_ROADMAP.md v1.1 → v1.2**
+  - Updated Orchestrator Kit progress: 70% → **75%**
+  - Updated status: "2 agents" → "4 agents ready"
+  - Updated test count: 150+ → 250+
+  - Updated timestamp to 2026-02-06 22:00 UTC
+
+### Statistics - Track 2 Total Progress
+- **Agents created:** 4 production-ready agents
+  1. Social Law Specialist (~500 lines, 50+ tests)
+  2. Case Manager (~600 lines, 50+ tests)
+  3. Household Manager (~900 lines, 50+ tests)
+  4. Labor Law Specialist (~850 lines, 50+ tests)
+
+- **Skills:** 1 (Benefits Calculator ~400 lines, 50+ tests)
+- **Total code:** ~3,250 lines production TypeScript
+- **Total tests:** 250+ comprehensive unit tests
+- **Test coverage:** All major functions and edge cases
+
+### Progress Summary
+- OpenClaw: 75% (unchanged - sandbox ready)
+- **Orchestrator Kit: 75%** (+5% with 2 new agents)
+- Leonardo AI: 15% (unchanged - prototype ready)
+- info7: 100% (documentation updates)
+
+---
+
 ## [1.5.0] - 2026-02-06 21:30 UTC
 
 ### Added - Parallel Development Implementation

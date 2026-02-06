@@ -1,5 +1,11 @@
 # Info7 - Исследование AI-агентов и оркестрации
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)](https://github.com/[USERNAME]/info7/releases)
+[![Documentation](https://img.shields.io/badge/docs-180k%20words-green.svg)](https://github.com/[USERNAME]/info7)
+[![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/[USERNAME]/info7)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 Комплексное исследование систем оркестрации AI-агентов с глубоким философским и техническим анализом.
 
 ## 📊 Быстрый старт

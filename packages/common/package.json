@@ -1,0 +1,31 @@
+{
+  "name": "@info7/common",
+  "version": "1.0.0",
+  "description": "Common utilities for info7 packages - config, logging, errors, validation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage"
+  },
+  "keywords": [
+    "utilities",
+    "logging",
+    "config",
+    "validation",
+    "errors"
+  ],
+  "author": "info7 team",
+  "license": "MIT",
+  "dependencies": {
+    "zod": "^3.22.4",
+    "winston": "^3.11.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
+  }
+}

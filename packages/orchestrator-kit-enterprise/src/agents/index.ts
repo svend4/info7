@@ -24,3 +24,6 @@ export * from './financial';
 
 // Education
 export * from './education';
+
+// Wellness
+export * from './wellness';

@@ -19,8 +19,8 @@ export * from './meta-learning';
 // Consciousness Layer
 export * from './consciousness';
 
-// TODO: Core Module (Corpus Callosum integration)
-// export * from './core';
+// Corpus Callosum (Integration with Info7 Knowledge Base)
+export * from './corpus-callosum';
 
 // Examples
 export { runExample } from './example';

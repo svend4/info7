@@ -8,6 +8,10 @@
 
 **[🇷🇺 Russian Version](README.ru.md)** | **[📊 Final Status Report](FINAL_STATUS.md)**
 
+**📖 DOCUMENTATION:**
+- **[⚡ Quick Start Guide](QUICK_START_GUIDE.md)** - Get started in 5-10 minutes!
+- **[🔄 Import/Export Guide](#)** - Coming soon: Comprehensive data management guide
+
 **Comprehensive AI Platform** with hierarchical agent orchestration, semantic knowledge base, self-learning AI, and professional enterprise agents.
 
 ---

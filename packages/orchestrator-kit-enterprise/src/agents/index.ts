@@ -18,3 +18,9 @@ export * from './care';
 
 // Healthcare
 export * from './healthcare';
+
+// Financial
+export * from './financial';
+
+// Education
+export * from './education';

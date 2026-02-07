@@ -19,5 +19,6 @@ export type { AccessResult } from './rbac/access-control';
 export { AuditLogger, AuditAction } from './audit/audit-logger';
 export type { AuditLogQuery } from './audit/audit-logger';
 
-// Example
+// Examples
 export { runEnterpriseExample } from './example';
+export { runIntegrationExample } from './integration-example';

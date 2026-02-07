@@ -20,3 +20,7 @@ export * from './coordinator/agent-selector';
 export * from './agents/legal-agent';
 export * from './agents/medical-agent';
 export * from './agents/finance-agent';
+
+// Examples
+export { runExample } from './example';
+export { runIntegrationExample } from './integration-example';

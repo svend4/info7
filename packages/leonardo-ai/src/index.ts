@@ -12,3 +12,7 @@ export * from './rag';
 
 // TODO: Core Module (Corpus Callosum integration)
 // export * from './core';
+
+// Examples
+export { runExample } from './example';
+export { runIntegrationExample } from './integration-example';

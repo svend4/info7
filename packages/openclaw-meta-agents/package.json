@@ -22,6 +22,7 @@
   "author": "info7 Contributors",
   "license": "MIT",
   "dependencies": {
+    "@info7/common": "workspace:*",
     "zod": "^3.22.4",
     "uuid": "^9.0.1"
   },

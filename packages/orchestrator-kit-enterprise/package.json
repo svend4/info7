@@ -21,6 +21,7 @@
   "author": "info7 team",
   "license": "MIT",
   "dependencies": {
+    "@info7/common": "workspace:*",
     "jsonwebtoken": "^9.0.2",
     "passport": "^0.7.0",
     "passport-saml": "^3.2.4",

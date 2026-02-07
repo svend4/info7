@@ -1,23 +1,36 @@
-# Leonardo AI - Reinforcement Learning Optimization
+# Leonardo AI - RL Optimization & RAG Integration
 
 **Version:** 2.0.0 | **Status:** 🚀 Production Ready
 
-> 🧠 Self-learning AI orchestration system with RL optimization
+> 🧠 Self-learning AI orchestration system with RL optimization and knowledge management
 
 ---
 
 ## 📖 Overview
 
-Leonardo AI RL Optimization module transforms Leonardo AI from a static orchestration system into a **self-learning agent** that continuously improves based on experience.
+Leonardo AI v2.0 combines two powerful modules:
 
-### Key Features
+### 🧠 RL Optimization Module
+Transforms Leonardo AI from a static system into a **self-learning agent** that continuously improves based on experience.
 
+**Features:**
 - 🎯 **Policy Network**: Learns optimal action selection strategies
 - 📊 **Value Network**: Estimates expected returns from states
 - 🎁 **Multi-criteria Rewards**: Optimizes for success, quality, time, resources, and cost
 - 💾 **Experience Replay**: Learns from past experiences
 - 🔍 **Smart Exploration**: ε-greedy, UCB, and Thompson sampling strategies
 - 📈 **Continuous Learning**: Adapts to new tasks and environments
+
+### 📚 RAG Integration Module
+Provides Leonardo AI with **long-term memory** and knowledge management capabilities.
+
+**Features:**
+- 📖 **Knowledge Base**: Store and organize documents in vector databases
+- 🔍 **Semantic Search**: Find relevant information using embeddings
+- 🧩 **Context Injection**: Automatically add retrieved context to prompts
+- 🔄 **Auto-updating**: Incremental knowledge base updates
+- 💡 **Grounded Responses**: Factual answers based on stored knowledge
+- 🎯 **Hybrid Retrieval**: Combines semantic and keyword search
 
 ---
 
@@ -334,10 +347,19 @@ See [API Documentation](./docs/API.md) for detailed API reference.
 
 ---
 
+### 📚 Documentation
+
+- [RL Module](./README.md) - This file
+- [RAG Module Guide](./docs/RAG_GUIDE.md) - Comprehensive RAG documentation
+- [API Reference](./docs/API.md) - Detailed API docs
+
+---
+
 ## 🛣️ Roadmap
 
-- [x] RL Optimization Engine (v2.0.0)
-- [ ] RAG Integration (v2.1.0)
+- [x] RL Optimization Engine (v2.0.0) ✅
+- [x] RAG Integration (v2.0.0) ✅
+- [ ] Corpus Callosum Core (v2.1.0)
 - [ ] Multi-agent RL (v2.2.0)
 - [ ] Offline RL (v2.3.0)
 - [ ] Distributed training (v3.0.0)

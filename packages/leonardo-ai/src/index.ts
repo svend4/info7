@@ -7,8 +7,8 @@
 // RL Module
 export * from './rl';
 
-// TODO: RAG Module (to be implemented)
-// export * from './rag';
+// RAG Module
+export * from './rag';
 
 // TODO: Core Module (Corpus Callosum integration)
 // export * from './core';

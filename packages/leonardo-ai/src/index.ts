@@ -16,6 +16,9 @@ export * from './bridge';
 // Meta-Learning Module
 export * from './meta-learning';
 
+// Consciousness Layer
+export * from './consciousness';
+
 // TODO: Core Module (Corpus Callosum integration)
 // export * from './core';
 
@@ -24,3 +27,4 @@ export { runExample } from './example';
 export { runIntegrationExample } from './integration-example';
 export { runBridgeExample } from './bridge-example';
 export { runMetaLearningExample } from './meta-learning-example';
+export { runConsciousnessExample } from './consciousness-example';

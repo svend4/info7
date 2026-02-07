@@ -1,0 +1,42 @@
+{
+  "name": "@info7/openclaw-meta-agents",
+  "version": "1.0.0",
+  "description": "OpenClaw Meta-Agents - Hierarchical multi-agent orchestration system",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "multi-agent",
+    "hierarchical",
+    "orchestration",
+    "openclaw",
+    "meta-agents",
+    "task-decomposition"
+  ],
+  "author": "info7 Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "zod": "^3.22.4",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@types/uuid": "^9.0.8",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "@vitest/coverage-v8": "^1.2.2",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "@info7/monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "info7 - Intelligent Multi-Domain AI Orchestration Platform",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "build:common": "npm run build --workspace=@info7/common",
+    "build:leonardo": "npm run build --workspace=@info7/leonardo-ai",
+    "build:openclaw": "npm run build --workspace=@info7/openclaw-meta-agents",
+    "build:enterprise": "npm run build --workspace=@info7/orchestrator-kit-enterprise",
+    "test": "npm run test --workspaces",
+    "test:common": "npm run test --workspace=@info7/common",
+    "test:leonardo": "npm run test --workspace=@info7/leonardo-ai",
+    "test:openclaw": "npm run test --workspace=@info7/openclaw-meta-agents",
+    "test:enterprise": "npm run test --workspace=@info7/orchestrator-kit-enterprise",
+    "lint": "npm run lint --workspaces",
+    "format": "npm run format --workspaces",
+    "clean": "rm -rf packages/*/dist packages/*/node_modules node_modules",
+    "example:common": "npm run example --workspace=@info7/common",
+    "example:leonardo": "npm run example --workspace=@info7/leonardo-ai",
+    "example:openclaw": "npm run example --workspace=@info7/openclaw-meta-agents",
+    "example:enterprise": "npm run example --workspace=@info7/orchestrator-kit-enterprise",
+    "integration:leonardo": "ts-node packages/leonardo-ai/src/integration-example.ts",
+    "integration:openclaw": "ts-node packages/openclaw-meta-agents/src/integration-example.ts",
+    "integration:enterprise": "ts-node packages/orchestrator-kit-enterprise/src/integration-example.ts",
+    "integration:all": "npm run integration:leonardo && npm run integration:openclaw && npm run integration:enterprise"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/svend4/info7.git"
+  },
+  "keywords": [
+    "ai",
+    "orchestration",
+    "multi-agent",
+    "reinforcement-learning",
+    "rag",
+    "multi-tenancy",
+    "enterprise"
+  ],
+  "author": "info7 Contributors",
+  "license": "MIT"
+}

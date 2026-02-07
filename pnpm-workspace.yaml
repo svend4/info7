@@ -1,0 +1,5 @@
+# pnpm workspace configuration
+# For better monorepo management with pnpm
+
+packages:
+  - 'packages/*'

@@ -15,3 +15,6 @@ export * from './domestic';
 
 // Care/Elderly Care
 export * from './care';
+
+// Healthcare
+export * from './healthcare';

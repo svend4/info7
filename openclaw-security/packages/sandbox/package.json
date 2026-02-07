@@ -1,0 +1,55 @@
+{
+  "name": "@openclaw/sandbox",
+  "version": "0.1.0",
+  "description": "Secure skill execution sandbox for OpenClaw CLI with VM2 isolation and resource limits",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "openclaw",
+    "sandbox",
+    "security",
+    "vm2",
+    "skill",
+    "isolation",
+    "resource-limits"
+  ],
+  "author": "Leonardo AI Security Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/svend4/info7",
+    "directory": "openclaw-security/packages/sandbox"
+  },
+  "bugs": {
+    "url": "https://github.com/svend4/info7/issues"
+  },
+  "homepage": "https://github.com/svend4/info7/tree/main/openclaw-security",
+  "dependencies": {
+    "vm2": "^3.9.19"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.0",
+    "@vitest/coverage-v8": "^1.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

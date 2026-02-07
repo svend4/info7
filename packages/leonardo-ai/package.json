@@ -1,0 +1,45 @@
+{
+  "name": "@info7/leonardo-ai",
+  "version": "2.0.0",
+  "description": "Leonardo AI - Self-learning AI orchestration system with RL and RAG capabilities",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "ai",
+    "reinforcement-learning",
+    "rag",
+    "orchestration",
+    "machine-learning",
+    "leonardo-ai"
+  ],
+  "author": "info7 Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "@info7/common": "workspace:*",
+    "@pinecone-database/pinecone": "^2.0.1",
+    "@tensorflow/tfjs": "^4.17.0",
+    "@tensorflow/tfjs-node": "^4.17.0",
+    "openai": "^4.28.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "@vitest/coverage-v8": "^1.2.2",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
